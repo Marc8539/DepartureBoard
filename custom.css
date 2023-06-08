@@ -1,0 +1,80 @@
+html, body {
+    font-family: Roboto, sans-serif;
+    /*font-weight: 600;*/
+    padding: 0;
+    border: 0;
+}
+
+h3, h2, h5, p {
+    color: white;
+}
+
+.col {
+    background-color: #d1d3d3;
+    margin: 0;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    z-index: -1000;
+}
+
+table {
+    border-spacing: 5px;
+    color: white;
+    height: 75%;
+    max-height: 650px;
+    margin: 0 0;
+    letter-spacing: 2px;
+    overflow: hidden;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+table .thead tr th {
+    background-color: #464646
+}
+
+th#header {
+    border: 0;
+    padding-bottom: 0;
+    padding-top: 3px;
+    color: white;
+}
+
+table tr:nth-child(odd) td {
+    background: #00788a;
+}
+
+table tr:nth-child(even) td {
+    background: #464646;
+}
+
+th {
+    padding-bottom: 0;
+    border: 0 solid black;
+}
+
+td {
+    border: 1px solid #01606e;
+    padding-top: 2px;
+    padding-bottom: 0;
+}
+
+.bybus td:first-of-type {
+    background-color: #7fbc3b;
+    color: #474a4d
+}
+
+.rutebil td:first-of-type {
+    background-color: #0048BA;
+}
+
+.skolebus td:first-of-type {
+    background-color: #FFBF00;
+    color: #474a4d
+}
+
+.bus {
+    background: #d1d3d3;
+}
